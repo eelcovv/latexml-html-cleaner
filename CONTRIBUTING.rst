@@ -283,8 +283,8 @@ on PyPI_, the following steps can be used to release a new version for
 .. |the repository service| replace:: GitHub
 .. |contribute button| replace:: "Create pull request"
 
-.. _repository: https://github.com/<USERNAME>/latexml-html-cleaner
-.. _issue tracker: https://github.com/<USERNAME>/latexml-html-cleaner/issues
+.. _repository: https://github.com/eelcovv/latexml-html-cleaner
+.. _issue tracker: https://github.com/eelcovv/latexml-html-cleaner/issues
 .. <-- end -->
 
 
