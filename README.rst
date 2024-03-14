@@ -1,5 +1,5 @@
 ====================
-latexml-html-cleaner
+latexml_html_cleaner
 ====================
 
 

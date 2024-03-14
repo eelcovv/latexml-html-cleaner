@@ -2,7 +2,7 @@
 Contributing
 ============
 
-Welcome to ``latexml-html-cleaner`` contributor's guide.
+Welcome to ``latexml_html_cleaner`` contributor's guide.
 
 This document focuses on getting any potential contributor familiarized
 with the development processes, but `other kinds of contributions`_ are also
@@ -21,7 +21,7 @@ guidelines.
 Issue Reports
 =============
 
-If you experience bugs or general issues with ``latexml-html-cleaner``, please have a look
+If you experience bugs or general issues with ``latexml_html_cleaner``, please have a look
 on the `issue tracker`_. If you don't see anything useful there, please feel
 free to fire an issue report.
 
@@ -40,10 +40,10 @@ you help us to identify the root cause of the issue.
 Documentation Improvements
 ==========================
 
-You can help improve ``latexml-html-cleaner`` docs by making them more readable and coherent, or
+You can help improve ``latexml_html_cleaner`` docs by making them more readable and coherent, or
 by adding missing information and correcting mistakes.
 
-``latexml-html-cleaner`` documentation uses Sphinx_ as its main documentation compiler.
+``latexml_html_cleaner`` documentation uses Sphinx_ as its main documentation compiler.
 This means that the docs are kept in the same repository as the project code, and
 that any documentation update is done in the same way was a code contribution.
 
@@ -55,7 +55,7 @@ that any documentation update is done in the same way was a code contribution.
 
    .. tip::
       Please notice that the `GitHub web interface`_ provides a quick way of
-      propose changes in ``latexml-html-cleaner``'s files. While this mechanism can
+      propose changes in ``latexml_html_cleaner``'s files. While this mechanism can
       be tricky for normal code contributions, it works perfectly fine for
       contributing to the docs, and can be quite handy.
 
@@ -106,8 +106,8 @@ This can easily be done via either |virtualenv|_::
 
 or Miniconda_::
 
-    conda create -n latexml-html-cleaner python=3 six virtualenv pytest pytest-cov
-    conda activate latexml-html-cleaner
+    conda create -n latexml_html_cleaner python=3 six virtualenv pytest pytest-cov
+    conda activate latexml_html_cleaner
 
 Clone the repository
 --------------------
@@ -117,8 +117,8 @@ Clone the repository
    page. This creates a copy of the code under your account on |the repository service|.
 #. Clone this copy to your local disk::
 
-    git clone git@github.com:YourLogin/latexml-html-cleaner.git
-    cd latexml-html-cleaner
+    git clone git@github.com:YourLogin/latexml_html_cleaner.git
+    cd latexml_html_cleaner
 
 #. You should run::
 
@@ -133,7 +133,7 @@ Clone the repository
     pip install pre-commit
     pre-commit install
 
-   ``latexml-html-cleaner`` comes with a lot of hooks configured to automatically help the
+   ``latexml_html_cleaner`` comes with a lot of hooks configured to automatically help the
    developer to check the code being written.
 
 Implement your changes
@@ -149,6 +149,8 @@ Implement your changes
 
     python -m venv venv
     .\venv\Scripts\Activate.ps1
+    python -m pip install pip -U
+    pip install -U wheel setuptools setuptools_scm
     pip install -e .[dev]
 
 #. Start your work on this branch. Don't forget to add docstrings_ to new
@@ -254,7 +256,7 @@ Releases
 
 If you are part of the group of maintainers and have correct user permissions
 on PyPI_, the following steps can be used to release a new version for
-``latexml-html-cleaner``:
+``latexml_html_cleaner``:
 
 #. Make sure all unit tests are successful.
 #. Tag the current commit on the main branch with a release tag, e.g., ``v1.2.3``.
@@ -283,8 +285,8 @@ on PyPI_, the following steps can be used to release a new version for
 .. |the repository service| replace:: GitHub
 .. |contribute button| replace:: "Create pull request"
 
-.. _repository: https://github.com/eelcovv/latexml-html-cleaner
-.. _issue tracker: https://github.com/eelcovv/latexml-html-cleaner/issues
+.. _repository: https://github.com/eelcovv/latexml_html_cleaner
+.. _issue tracker: https://github.com/eelcovv/latexml_html_cleaner/issues
 .. <-- end -->
 
 
