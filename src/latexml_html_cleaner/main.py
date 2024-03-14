@@ -79,7 +79,7 @@ def parse_args(args):
         "-w",
         "--overwrite",
         help="Overwrite the input html. Default = False, which means a new html is created with"
-             "the suffix _clean",
+        "the suffix _clean",
         action="store_true",
         default=False,
     )
