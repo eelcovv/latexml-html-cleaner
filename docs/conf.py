@@ -34,7 +34,7 @@ except ImportError:
     from sphinx import apidoc
 
 output_dir = os.path.join(__location__, "api")
-module_dir = os.path.join(__location__, "../src/htmlcleaer")
+module_dir = os.path.join(__location__, "../src/latexml_html_cleaner")
 try:
     shutil.rmtree(output_dir)
 except FileNotFoundError:
@@ -87,8 +87,8 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "latexml-html-cleaner"
-copyright = "2022, EVLT"
+project = "latexml_html_cleaner"
+copyright = "2024, EVLT"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -99,7 +99,7 @@ copyright = "2022, EVLT"
 # If you don’t need the separation provided between version and release,
 # just set them both to the same value.
 try:
-    from htmlcleaer import __version__ as version
+    from latexml_html_cleaner import __version__ as version
 except ImportError:
     version = ""
 
@@ -229,7 +229,7 @@ html_static_path = ["_static"]
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "latexml-html-cleaner-doc"
+htmlhelp_basename = "latexml_html_cleaner-doc"
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -246,7 +246,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-    ("index", "user_guide.tex", "latexml-html-cleaner Documentation", "EVLT", "manual")
+    ("index", "user_guide.tex", "latexml_html_cleaner Documentation", "EVLT", "manual")
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
