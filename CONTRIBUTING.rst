@@ -47,26 +47,6 @@ by adding missing information and correcting mistakes.
 This means that the docs are kept in the same repository as the project code, and
 that any documentation update is done in the same way was a code contribution.
 
-.. todo:: Don't forget to mention which markup language you are using.
-
-    e.g.,  reStructuredText_ or CommonMark_ with MyST_ extensions.
-
-.. todo:: If your project is hosted on GitHub, you can also mention the following tip:
-
-   .. tip::
-      Please notice that the `GitHub web interface`_ provides a quick way of
-      propose changes in ``latexml_html_cleaner``'s files. While this mechanism can
-      be tricky for normal code contributions, it works perfectly fine for
-      contributing to the docs, and can be quite handy.
-
-      If you are interested in trying this method out, please navigate to
-      the ``docs`` folder in the source repository_, find which file you
-      would like to propose changes and click in the little pencil icon at the
-      top, to open `GitHub's code editor`_. Once you finish editing the file,
-      please write a message in the form at the bottom of the page describing
-      which changes have you made and what are the motivations behind them and
-      submit your proposal.
-
 When working on documentation changes in your local machine, you can
 compile them using |tox|_::
 
@@ -80,12 +60,6 @@ and use Python's built-in web server for a preview in your web browser
 
 Code Contributions
 ==================
-
-.. todo:: Please include a reference or explanation about the internals of the project.
-
-   An architecture description, design principles or at least a summary of the
-   main concepts will make it easy for potential contributors to get started
-   quickly.
 
 Submit an issue
 ---------------
@@ -125,8 +99,6 @@ Clone the repository
     pip install -U pip setuptools -e .
 
    to be able to import the package under development in the Python REPL.
-
-   .. todo:: if you are not using pre-commit, please remove the following item:
 
 #. Install |pre-commit|_::
 
@@ -193,13 +165,6 @@ Submit your contribution
 
 #. Go to the web page of your fork and click |contribute button|
    to send your changes for review.
-
-   .. todo:: if you are using GitHub, you can uncomment the following paragraph
-
-      Find more detailed information in `creating a PR`_. You might also want to open
-      the PR as a draft first and mark it as ready for review after the feedbacks
-      from the continuous integration (CI) system or any required fixes.
-
 
 Troubleshooting
 ---------------
@@ -280,7 +245,6 @@ on PyPI_, the following steps can be used to release a new version for
 
 
 .. <-- start -->
-.. todo:: Please review and change the following definitions:
 
 .. |the repository service| replace:: GitHub
 .. |contribute button| replace:: "Create pull request"
