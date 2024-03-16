@@ -37,7 +37,7 @@ For all the details, do::
 
     htmlcleaner.exe --help
 
- which gives the output:
+giving the output:
 
 .. code-block:: text
 
