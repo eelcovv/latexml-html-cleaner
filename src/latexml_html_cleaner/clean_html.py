@@ -62,14 +62,14 @@ class HTMLCleaner:
 
     Notes:
         * By default, all attributes starting with ltx are skipped
-        * *skip_tags* can drop entire *<>* environments based on the environments name (the
-          key of the dict) and then a list of attributes key/values pairs.
-        * If such a key/value pair occurs, the entire *<>* tag is discarded.
+        * With ```skip_tags``` we can drop entire *<>* environments based on the environments name (the key of the dict)
+          and then a list of attributes key/values pairs.
+        * If such a key/value pair occurs, the entire ```<>``` tag is discarded.
         * We first define a default list in this example: a tag
-          *<span class="ltx_bibblock ltx_bib_cited">Cited by etc. </span>* is
-          discarded in its entirely, including all nested values.
-        * We can also specify the values of a key/value pair in a list if there are more than one
-          tags have the same key names, but different values
+          ```<span class="ltx_bibblock ltx_bib_cited">Cited by etc. </span>```
+          is discarded in its entirely, including all nested values.
+        * We can also specify the values of a key/value pair in a list if there are more than one tags have the same
+          key names, but different values
     """
 
     def __init__(
