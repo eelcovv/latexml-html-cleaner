@@ -1,6 +1,35 @@
 """
 This conversion script cleans an HTML file generated with latex such that it can be read easier into the
 sitescore
+
+Run *htmlcleaner --help* to get the help message:
+
+.. code-block:: text
+
+    usage: htmlcleaner [-h] [--version] [--output_filename STR] [-v] [-vv] [-w] [-f [PATH ...]]
+                       [--clear_find_and_replace_defaults]
+                       STR [STR ...]
+
+    Cleans html files and removes hyperrefs
+
+    positional arguments:
+      STR                   File name of html input
+
+    options:
+      -h, --help            show this help message and exit
+      --version             show program's version number and exit
+      --output_filename STR
+                            File name of output html file
+      -v, --verbose         set loglevel to INFO
+      -vv, --very-verbose, --debug
+                            set loglevel to DEBUG
+      -w, --overwrite       Overwrite the input html. Default = False, which means a new html is created withthe suffix
+                            _clean
+      -f [PATH ...], --find_and_replace [PATH ...]
+                        Define a list of key=value pairs to define string patterns you want to replace
+      --clear_find_and_replace_defaults
+                            Clear the predefined find and replace patterns
+
 """
 
 import argparse
